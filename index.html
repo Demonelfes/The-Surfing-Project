@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <title>The Surfing Project</title>
+    <style>
+        body {
+            font-family: 'Montserrat';
+        }
+
+        header {
+            background-image: url("./surf.jpeg");
+            background-size: cover;
+            background-position: center;
+        }
+        .darken-overlay {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.card-img-top {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    background-position: center;
+}
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark px-4">
+        <a href="#" class="navbar-brand"><img src="oceania.svg" alt="Oceania" height="35px"> The Surfing Project</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="" class="nav-link text-white">Accueil</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Le Programme</a></li>
+                <li class="nav-item dropdown"><a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Nos Prochaines Sessions</a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item">
+                            <a href="#">Sous-menuItem1</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="#">Sous-menuItem2</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="#">Sous-menuItem3</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="text-white rounded-3 d-flex justify-content-center align-items-center darken-overlay" style="height:500px;">
+        <div class="darken-overlay p-lg-5 p-4">
+            <h1 class="text-center d-block">Partez à l'aventure !</h1>
+            <p class="lead text-center d-block">Decouvrez notre école de surf en peer-learning</p>
+            <div class="d-block text-center">
+                <button class="btn text-white bg-primary" type="button">Je m'inscris à la prochaine session</button>
+                <button class="btn text-white bg-secondary" type="button">Je decouvre le programme</button>
+            </div>
+        </div>
+    </header>
+
+
+
+<div class="container">
+    <h1 class="my-3 text-center">The Surfing Project en 3 points</h1>    
+    <div class="row g-3 pb-3 pt-3 text-center">
+        <div class="col-md-4">
+            <img src="money-bill-icon.svg" alt="bill-icon" height="50px">
+            <h4 class="m-2">Pas chere</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac imperdiet dolor. Suspendisse quis nunc turpis.
+                 Nulla feugiat leo id pretium facilisis. </p>
+        </div>
+        <div class="col-md-4">
+            <img src="couch-solid-icon.svg" alt="couch-icon" height="50px">
+            <h4 class="m-2">Relax</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac imperdiet dolor. Suspendisse quis nunc turpis.
+                 Nulla feugiat leo id pretium facilisis. </p> 
+        </div>
+        <div class="col-md-4">
+            <img src="users-solid-icon.svg" alt="users-icon" height="50px">
+            <h4 class="bold m-2">La communaute</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac imperdiet dolor. Suspendisse quis nunc turpis.
+                 Nulla feugiat leo id pretium facilisis. </p>
+        </div>
+    </div>
+
+    <h1 class="my-3 text-center">TEMOIGNAGES</h1>
+    <div class="row g-3 pb-3">
+        <div class="col-md-6">
+            <div class="card h-100">
+                <img src="surf-card1.jpeg" class="card-img-top" alt="surf card 1">
+                <div class="card-body">
+                  <p class="card-text">Surfing's not a sport, it's a way of life, it's no hobby. it's a way of looking at that wave and saying "Hey bud, let's party".</p>
+                  <h6 class="card-subtitle mb-2 text-muted">Jeff, Avril 2019</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card h-100">
+                <img src="surf-card2.jpeg" class="card-img-top" alt="surf card 2">
+                <div class="card-body">
+                  <p class="card-text">Grace a TSP  je fais le tour du monavec mon van et fais du surf ! Si l'experience etait a refaire je le referais plein de fois.</p>
+                  <h6 class="card-subtitle mb-2 text-muted">Jean-Michel, Octobre 2018</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+    <h1 class="my-3 text-center">Prix</h1>    
+    <div class="row g-3 pb-3 text-center m-3">
+        <div class="col-md-4">
+            <div class="card rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-normal">Semaine d'essai</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">0€</h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Le kiff</li>
+                    <li>A Bali</li>
+                    <li>Pendant une semaine</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-outline-primary">S'inscrire</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                      <h4 class="my-0 fw-normal">Early Bird</h4>
+                    </div>
+                    <div class="card-body">
+                      <h1 class="card-title pricing-card-title">15€</h1>
+                      <ul class="list-unstyled mt-3 mb-4">
+                        <li>Le kiff</li>
+                        <li>A Bali</li>
+                        <li>Pendant une semaine</li>
+                      </ul>
+                      <button type="button" class="w-100 btn btn-lg btn-outline-primary">S'inscrire</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                      <h4 class="my-0 fw-normal">En trois fois</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title"> 15€ <small class="text-muted fw-light"> / mo</small></h1>
+                      <ul class="list-unstyled mt-3 mb-4">
+                        <li>Le kiff</li>
+                       <li>A Bali</li>
+                        <li>Pendant une semaine</li>
+                      </ul>
+                      <button type="button" class="w-100 btn btn-lg btn-outline-primary">S'inscrire</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+<footer class="bg-light text-start text-lg-start">
+    <div class="text-start p-4">
+      &copy; Bootstrap, et The Surfing Project
+    </div>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
